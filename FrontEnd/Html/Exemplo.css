@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    background-color: #377096;
+}
+
+header {
+    background-color: #4e525a79;
+    display:flex;
+    justify-content: space-between;
+    width: 1303px;
+    height: 115px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    margin-bottom: 50;
+}
+
+.logo {
+    display:flex;
+    justify-content: flex-start;
+    margin: 25px 0px;
+    width: 150;
+    height: 50px;
+}
+
+.navegação {
+    display:flex;
+    justify-content: center;
+    width: 283;
+    height: 40px;
+    position: relative; top: 25;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+    width: 284px;
+    height: 85px;
+    position: relative; left: 0px;
+}
+
+aside { 
+    background-color: #173E59;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 289px;
+    height: 556px;
+}
+
+.lateral {
+    
+}
+
+main {
+    background-color: #173D57;
+    
+}
+
+.menu {
+    background-color: #377096;
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    height: 40px;
+    position: relative; left: 325px;
+    position: relative; top: -555px;
+}
+
+.jogos {
+    background-color: #173D57;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    height: 354px;
+    position: relative; left: 325px;
+    position: relative; top: -555px;
+}
+
+article {
+    background-color: #173D57;
+}
+
+.principal {
+    background-color: #173D57;
+    width: 500px;
+    height: 300px;
+    position: relative; right: 450px;
+    position: relative; top: 53px;
+}
+
+.banner {
+    text-align: center;
+    position: relative; left: 50px;
+    position: relative; top: -250px;
+}
+
+.recomendações {
+    background-color: #000000;
+    text-align: center;
+    padding: 30px;
+    width: 429px;
+    height: 180px; 
+    position: relative; left: 400px;
+    position: relative; top: -200px;
+}
+
+.facebook {
+    position: fixed;
+    left: 10;
+    top: 450;
+    z-index: 1;
+}
+
+footer {
+    background-color: #171A21;
+    text
+    display: flex;
+    justify-content: space-around;
+    width: 1303px;
+    height: 176px;
+    position: relative; left: 0px;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 10px 10px;
+}
+
+h2 {
+    color: #969EAB;
+    margin: 10px 10px;
+}
+
+h3 {
+    color: #259BEB;
+    margin: 10px 10px;
+}
+
+h4 {
+    color: #969EAB;;
+    margin: 10px 10px;
+}
+
+span {
+    color: white;
+    margin: 10px 10px;
+}        
+
+p {
+    color: #5AC0F1;
+    margin: 10px 10px;
+}
+
+a {
+    color: white;
+    margin: 10px 10px;
+}
+
+a:hover {
+    color: red;
+}
+
+.imagem_game {
+    width="135" height="80"
+    text-align: center;
+}
+
+.logo_steam {
+    width="97px" height="25px"
+    position: relative;
+}
+
+.logo_valve {
+    width="86px" height="25px"
+}
