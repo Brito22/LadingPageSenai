@@ -37,12 +37,17 @@ header {
 }
 
 .barra_inicial a {
+    display: inline-block;
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+.btn_menu i {
+    display: none;
 }
 
 main {
@@ -111,9 +116,12 @@ hr {
 .divisao_sobre {
     /*background-color: aqua;*/
     margin: auto auto;
-    align-items: center;
+    align-items: left;
     height: 617px;
     padding: 64px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .box {
@@ -293,4 +301,182 @@ footer span {
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
+    color: white;
+}
+
+@media (max-width: 420px){
+    .container {
+        width: 420px;
+    }
+
+    header {
+        width: 100vw;
+    }
+
+    .bloco_header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .barra_inicial {
+        display: none;
+        
+        position: absolute;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 300px;
+        background-color: black;
+        top: 60px;
+        width: 100%;
+    }
+
+    .btn_menu i {
+        display: inline-block;
+        color: white;
+        font-size: 30px;
+        width: 7%;
+        margin: 0px 25px;
+    }
+
+    .banner {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+
+    .imagem_banner {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .texto_logo {
+        top: 145px;
+        left: 5px;
+        align-items: center;
+    }
+
+    .texto_logo h1 {
+        width: 360px;
+        font-size: 62px;
+    }
+
+    .texto_logo hr {
+        width: 360px;
+        margin: 20px 0;
+    }
+
+    .texto_logo span {
+        font-size: 38px;
+        margin-top: 10px;
+    }
+
+    .mouse {
+        width: 45px;
+        margin-top: 30px;
+    }
+
+    .sobre {
+        width: 100vw;
+        height: 1200px;
+        
+    }
+
+    .divisao_sobre {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .divisão_sobre h2{
+        font-size: 55px;
+        margin: 25px 25px;
+        font-weight: 400;
+    }
+
+    .box{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .box img{
+        width: 80vw;
+    }
+
+    .box_sobre {
+        margin-top: 50px;
+        width: 80vw;
+    } 
+
+    .box_sobre h3 {
+        width: auto;
+        font-size: 38px;
+        margin: 0px 0;
+    }
+
+    .box_sobre p {
+        width: auto;
+        text-align: justify;
+        margin-bottom: 50px;
+    }
+
+    .info {
+        height: 600px;
+        width: 100vw;
+    }
+
+    .info_box {
+        flex-direction: column;
+        height: 600px;
+        justify-content: space-around;
+    }
+
+    .endereco {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        position: unset;
+        justify-content: space-evenly;
+        width: 100vw;
+        align-items: center;
+    }
+
+    .endereco h2 {
+        width: 720px;
+        top: 25px;
+    }
+
+    .endereco img {
+        margin-bottom: unset;
+    }
+
+    .box_endereco {
+        width: 60vw;
+        height: unset;
+        padding: 60px 40px;
+        justify-content: space-evenly;
+        margin: 40px 504px;
+    }
+
+    .endereco p {
+        margin-right: 0px;
+    }
+
+    .endereco img {
+        position: unset;
+        width: 80vw;
+        margin-bottom: 45px;
+    }
+
+    footer {
+        width: 100vw;
+    }
+
+    footer span {
+        width: 80vw;
+        text-align: center;
+    }
 }
